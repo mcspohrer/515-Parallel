@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo -n Password:
+read -s password
+for i in $GASNET_SSH_SERVERS;
+do
+  sshpass -p $password ssh-copy-id $i;
+done
