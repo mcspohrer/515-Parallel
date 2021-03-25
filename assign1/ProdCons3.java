@@ -1,3 +1,8 @@
+/* 
+Matthew Spohrer CS515-Parallel Programming
+One Producer with multiple consumers 
+*/
+
 import java.util.LinkedList;
 import java.util.Queue;
 
